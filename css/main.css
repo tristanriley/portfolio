@@ -1,7 +1,9 @@
 
 
 .home {
-	background: url(images/gates.jpg)no-repeat center center fixed;
+	background: url(../images/gates.jpg)no-repeat center center fixed;
+	background-size: contain;
+	max-width: 100%
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -65,7 +67,10 @@
 }
 
 .biography{
-	background: url(images/lt.jpg)no-repeat center center fixed;
+	background: url(../images/lt.jpg)no-repeat center center fixed;
+	background-size: contain;
+	max-width: 100%;
+	 max-width:100%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -82,7 +87,10 @@
 }
 
 .about{
-	background: url(images/rivers.jpg)no-repeat center center fixed;
+	background: url(../images/rivers.jpg)no-repeat center center fixed;
+	background-size: contain;
+	max-width: 100%;
+	 max-width:100%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -96,5 +104,9 @@
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: yellow;
     color: red;
-	margin-left: 50%;
+	margin-left: 40%;
+}
+
+.atext{
+	max-width: 100%
 }
