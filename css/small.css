@@ -37,7 +37,7 @@
 .button1{
 	background-color: red;
 	font-size: 20px;
-	margin-left: 80%;
+	margin-left: 70%;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -45,14 +45,14 @@
 .button2{
 	background-color: red;
 	font-size: 20px;
-	margin-left: 87%;
+	margin-left: 70%;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 .button3{
 	background-color: red;
 	font-size: 20px;
-	margin-left: 92%;
+	margin-left: 70%;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -110,3 +110,4 @@
 .atext{
 	max-width: 100%
 }
+
