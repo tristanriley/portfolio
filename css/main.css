@@ -33,28 +33,14 @@
     
   } 
 
-.button1{
+.button{
 	background-color: red;
 	font-size: 20px;
-	margin-left: 70%;
+	margin-left: 100%;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
-.button2{
-	background-color: red;
-	font-size: 20px;
-	margin-left: 70%;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.button3{
-	background-color: red;
-	font-size: 20px;
-	margin-left: 70%;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
 
 .bio{
 	font-family: 'Anton', sans-serif;
@@ -85,15 +71,15 @@
 	text-align: center;
 }
 
-.about{
+.containerA{
 	background: url(../images/rivers.jpg)no-repeat center center fixed;
 	background-size: contain;
-	max-width: 100%;
-	 max-width:100%;
+	width:960px;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
+ 	margin: 0px auto;
 
 }
 
@@ -108,4 +94,11 @@
 
 .atext{
 	max-width: 100%
+}
+
+@media screen and (max-width:959px){
+
+	.containerA{
+		width:100%;
+	}
 }
