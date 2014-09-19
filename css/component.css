@@ -360,6 +360,7 @@ body {
 		-webkit-transform: translateX(-100%);
 		transform: translateX(-100%);
 	}
+	
 
 	.open-left .side-right {
 		-webkit-transform: translateX(100%);
